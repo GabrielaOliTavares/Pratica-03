@@ -8,7 +8,8 @@ private $idade = 0;
 private $sexo = "";
 public function __construct($nome, $idade, $sexo) {
 $this->nome = $nome;
-
+// $this faz referência à instância da classe atual. Ele é usado para acessar membros (propriedades e métodos)
+ // da classe no interior da mesma classe.
 $this->idade = $idade;
 $this->sexo = $sexo;
 }
