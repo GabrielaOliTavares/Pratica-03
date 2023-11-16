@@ -1,7 +1,8 @@
- // classe que represente uma Pessoa com os seguintes atributos nome, idade e sexo. Os atributos devem ser
+ 
+<?php
+// classe que represente uma Pessoa com os seguintes atributos nome, idade e sexo. Os atributos devem ser
 // privados e os valores devem ser informados via construtor.
 
-<?php
 // As classes em PHP são usadas para definir objetos e encapsular propriedades e métodos relacionados.
 class Pessoa {
 private $nome = "";
